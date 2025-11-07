@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+/* small design tokens */
+:root {
+  --max-width: 80rem;
+}
+
+/* utilities for focus */
+:focus {
+  outline: 2px solid rgb(14 165 233 / 0.6);
+  outline-offset: 2px;
+}
